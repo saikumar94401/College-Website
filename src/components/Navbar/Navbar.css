@@ -1,0 +1,36 @@
+.bars-icon{
+    font-size: 30px;
+    background-color: #f6f8fe;
+    color: #0856a3;
+    padding-left: 20px;
+    padding-right: 20px;
+  
+   
+}
+.scrolling-text-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .scrolling-text {
+    white-space: nowrap;
+    animation: scroll 10s linear infinite;
+  }
+  
+  .scrolling-text {
+    white-space: nowrap;
+    animation: scroll 10s linear infinite;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(-100%);
+    }
+    50% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

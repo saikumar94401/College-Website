@@ -1,0 +1,23 @@
+.side-link{
+    color:#0856a3;
+    
+    text-decoration: none;
+    margin:0;
+    padding:0; 
+    display: inline-block;
+    width:100%;
+}
+.side-link:hover{
+    background-color:rgb(8 ,86 ,163,0.1);
+}
+
+.nav-link{
+    background-color:rgb(8 ,86 ,163,0.1);
+    border:none;    
+    display: inline-block;
+    width:100%;
+    text-align: center;
+}
+.nav-link:hover{
+   color:#0856a3;
+}
